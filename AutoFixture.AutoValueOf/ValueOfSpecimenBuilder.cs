@@ -2,6 +2,8 @@
 using AutoFixture.Kernel;
 using ValueOf;
 
+namespace AutoFixture.AutoValueOf;
+
 public class ValueOfSpecimenBuilder : ISpecimenBuilder
 {
     public object Create(object request, ISpecimenContext context)
